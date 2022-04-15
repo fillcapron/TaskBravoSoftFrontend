@@ -37,6 +37,7 @@ export const Form: React.FC = () => {
                                 margin='normal'
                                 onChange={(e) => field.onChange(e)}
                                 value={field.value || ''}
+                                required={true}
                             />
                         )
                         }
@@ -44,15 +45,17 @@ export const Form: React.FC = () => {
                     <Controller
                         control={control}
                         name="password"
-                        render={({ field }): any => (
+                        render={({ field }) => (
                             <TextField
                                 id="standard-basic"
                                 label="Пароль"
                                 variant="outlined"
                                 size='small'
                                 margin='normal'
+                                type='password'
                                 onChange={(e) => field.onChange(e)}
                                 value={field.value || ''}
+                                required={true}
                             />
                         )
                         }
@@ -62,7 +65,9 @@ export const Form: React.FC = () => {
                     type="submit"
                     variant="contained"
                     fullWidth={true}
-                >Войти</Button>
+                >
+                    Войти
+                </Button>
             </form>
 
         </div>
