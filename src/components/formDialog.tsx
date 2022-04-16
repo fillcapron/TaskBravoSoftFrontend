@@ -46,6 +46,7 @@ export const FormDialog: React.FC<FormDialogProps> = ({ type, value }) => {
         if (type === "read") {
             dispatch(updateEmployeer(token, data));
         }
+        reset();
         setOpen(false);
     }
 
