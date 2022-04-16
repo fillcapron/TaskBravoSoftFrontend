@@ -4,13 +4,13 @@ import TextField from "@mui/material/TextField";
 import ClearIcon from '@mui/icons-material/Clear';
 import SearchIcon from '@mui/icons-material/Search';
 
-interface QuickSearchToolbarProps {
+interface SearchToolbarProps {
     clearSearch: () => void;
     onChange: () => void;
     value: string;
 }
 
-export const QuickSearchToolbar: React.FC<QuickSearchToolbarProps> = (props) => {
+export const SearchToolbar: React.FC<SearchToolbarProps> = (props) => {
     return (
         <Box
             display="flex" justifyContent="flex-end"

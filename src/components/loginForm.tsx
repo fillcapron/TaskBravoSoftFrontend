@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Stack, TextField, Typography } from '@mui/material';
+import { Box, Button, Stack, TextField, Typography } from '@mui/material';
 import { useForm, Controller, SubmitHandler } from "react-hook-form";
 import { User } from '../store/model';
 import { useAppDispatch } from '../hooks/redux';
@@ -17,12 +17,14 @@ export const Form: React.FC = () => {
 
     return (
         <div style={{ maxWidth: '400px', margin: '0 auto' }}>
-            <Typography variant='h4' component="div">
-                Войдите
-            </Typography>
-            <Typography variant='subtitle1' component="div">
-                Чтобы отобразить таблицу c данными
-            </Typography>
+            <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                <Typography variant='h4' component="div">
+                    Войдите
+                </Typography>
+                <Typography variant='subtitle1' component="div">
+                    Чтобы отобразить таблицу c данными
+                </Typography>
+            </Box>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <Stack spacing={2} mb={2}>
                     <Controller
