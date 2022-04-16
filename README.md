@@ -20,9 +20,17 @@
 
 <span style="display:block;text-align:center">![Alt-текст](https://i.ibb.co/Xy6L4yQ/2022-04-16-19-01-48.gif)</span>
 
-**Добавление сотрудника**
+**Добавление данных**
 
-<span style="display:block;text-align:center">![Alt-текст](https://i.ibb.co/txcJcjJ/2022-04-16-19-12-08.gif)</span>
+<span style="display:block;text-align:center">![Alt-текст](https://i.ibb.co/WPF2F82/2022-04-16-19-12-08.gif)</span>
+
+**Удаление данных**
+
+<span style="display:block;text-align:center">![Alt-текст](https://i.ibb.co/1XYTHdH/2022-04-16-19-17-20.gif)</span>
+
+**Обновление данных**
+
+<span style="display:block;text-align:center">![Alt-текст](https://i.ibb.co/ryyJ0h1/2022-04-16-19-19-03.gif)</span>
 
 **Stack:**
 + Material UI
